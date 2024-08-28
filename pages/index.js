@@ -18,6 +18,7 @@ const DUMMY_MEETUPS = [
 ];
 
 function HomePage() {
+
   return <MeetupList meetups={DUMMY_MEETUPS} />
 }
 
